@@ -23,10 +23,6 @@ from math import *
 import random
 import datetime
 
-# PRIMARY RULE: Wave can only access attributes in models.py via getters/setters
-# Level is NOT allowed to access anything in app.py (Subcontrollers are not permitted
-# to access anything in their parent. To see why, take CS 3152)
-
 class Wave(object):
     """
     This class controls a single level or wave of Planetoids.
@@ -52,36 +48,6 @@ class Wave(object):
     there is no need for a getter there. But at a minimum, you need getters indicating
     whether you one or lost the game.
     """
-    # LIST ANY ATTRIBUTES (AND THEIR INVARIANTS) HERE IF NECESSARY
-    # THE ATTRIBUTES LISTED ARE SUGGESTIONS ONLY AND CAN BE CHANGED AS YOU SEE FIT
-    # Attribute _data: The data from the wave JSON, for reloading 
-    # Invariant: _data is a dict loaded from a JSON file
-    # Attribute _ship: The player ship to control 
-    # Invariant: _ship is a Ship object
-    #
-    # Attribute _asteroids: the asteroids on screen 
-    # Invariant: _asteroids is a list of Asteroid, possibly empty
-    #
-    # Attribute _bullets: the bullets currently on screen 
-    # Invariant: _bullets is a list of Bullet, possibly empty
-    #
-    # Attribute _lives: the number of lives left 
-    # Invariant: _lives is an int >= 0
-    #
-    # Attribute _firerate: the number of frames until the player can fire again 
-    # Invariant: _firerate is an int >= 0
-    
-    # GETTERS AND SETTERS (ONLY ADD IF YOU NEED THEM)
-    
-    # INITIALIZER (standard form) TO CREATE SHIP AND ASTEROIDS
-    
-    # UPDATE METHOD TO MOVE THE SHIP, ASTEROIDS, AND BULLETS
-    
-    # DRAW METHOD TO DRAW THE SHIP, ASTEROIDS, AND BULLETS
-    
-    # RESET METHOD FOR CREATING A NEW LIFE
-    
-    # HELPER METHODS FOR PHYSICS AND COLLISION DETECTION
 
     def __init__(self, data):
         """
