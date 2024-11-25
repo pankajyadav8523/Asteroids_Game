@@ -1,4 +1,4 @@
-# Asteroid Game - Object-Oriented Python
+# Planetoid Game - Object-Oriented Python
 
 ### Project Overview
 
