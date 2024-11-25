@@ -6,8 +6,8 @@ is no need for any any need for additional classes in this module. If you need m
 classes, 99% of the time they belong in either the wave module or the models module. If
 you are ensure about where a new class should go, post a question on Ed Discussions.
 
-# YOUR NAME(S) AND NETID(S) HERE
-# DATE COMPLETED HERE
+Author : Pankaj Yadav
+Date : 2 April, 2023
 """
 from consts import *
 from game2d import *
@@ -56,31 +56,6 @@ class Planetoids(GameApp):
     This attributes are inherited. You do not need to add them. Any other attributes
     that you add should be hidden.
     """
-    # LIST ANY ATTRIBUTES (AND THEIR INVARIANTS) HERE IF NECESSARY
-    # THE ATTRIBUTES LISTED ARE SUGGESTIONS ONLY AND CAN BE CHANGED AS YOU SEE FIT
-    # Attribute _state: the current state of the game as a value from consts.py
-    # Invariant: _state is one of STATE_INACTIVE, STATE_LOADING, STATE_PAUSED, 
-    #            STATE_ACTIVE, STATE_CONTINUE
-    #
-    # Attribute _wave: the subcontroller for a single wave, which manages the game
-    # Invariant: _wave is a Wave object, or None if there is no wave currently active.
-    #            _wave is only None if _state is STATE_INACTIVE.
-    #
-    # Attribute _title: the game title
-    # Invariant: _title is a GLabel, or None if there is no title to display. It is None 
-    #            whenever the _state is not STATE_INACTIVE.
-    #
-    # Attribute _message: the currently active message
-    # Invariant: _message is a GLabel, or None if there is no message to display. It is 
-    #            only None if _state is STATE_ACTIVE.
-    # START REMOVE
-    # Attribute _sdown: Whether the 'S' was help down last frame
-    # Invariant: _sdown is a boolean
-    # END REMOVE
-
-    # DO NOT MAKE A NEW INITIALIZER!
-
-    # THREE MAIN GAMEAPP METHODS
     def start(self):
         """
         Initializes the application.
