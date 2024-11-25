@@ -14,8 +14,8 @@ You are free to add even more models to this module. You may wish to do this whe
 add new features to your game, such as power-ups. If you are unsure about whether to
 make a new class or not, please ask on Ed Discussions.
 
-# YOUR NAME(S) AND NETID(S) HERE
-# DATE COMPLETED HERE
+Author : Pankaj Yadav
+Date : 3 April, 2023
 """
 from consts import *
 from game2d import *
