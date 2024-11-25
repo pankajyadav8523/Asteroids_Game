@@ -13,8 +13,8 @@ Most of your work on this assignment will be in either this module or models.py.
 Whether a helper method belongs in this module or models.py is often a complicated
 issue.  If you do not know, ask on Ed Discussions and we will answer.
 
-# YOUR NAME(S) AND NETID(S) HERE
-# DATE COMPLETED HERE
+Author : Pankaj Yadav
+Date : 3 April, 2023
 """
 from game2d import *
 from consts import *
