@@ -31,4 +31,4 @@ Players control a spaceship using keyboard inputs to maneuver around the screen.
 1. **Clone the repository**:
 
    ```bash
-   git clone [https://github.com/your-username/asteroid-game.git](https://github.com/pankajyadav8523/Planetoids_Game.git)
+   git clone https://github.com/pankajyadav8523/Planetoids_Game.git
